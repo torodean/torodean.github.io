@@ -28,6 +28,12 @@ h3 {
 	text-shadow: 0px 0px 4px #000000; 
 	text-decoration: underline;
 }
+.h2-projects {
+	color: #388fd6;
+}
+.h3-projects {
+	color: #388fd6;
+}
 .small-h3 {
 	font-size: 130%;
 }
@@ -51,6 +57,16 @@ h3 {
 	color: #565656;
 	background-color: #f2cd71;
 	border-color: #ffc230;
+}
+.project-button {
+	color: #303030;
+	background-color: #9fb1b5;
+	border-color: #000;
+}
+.project-button:hover {
+	color: #000;
+	background-color: #388fd6;
+	border-color: #303030;
 }
 
 /* Some various style features */
@@ -116,9 +132,20 @@ a.navbar-logo {
 	padding: 0;
 	margin-top: 2px; 
 }
+a.navbar-logo-blue {
+	background-image: url(../img/logo-compact-blue.png);
+	width: 50px;
+	height: 40px;
+	background-size: 50px auto;
+	padding: 0;
+	margin-top: 2px; 
+}
 
 /* Changes navbar logo upon hover */
 a.navbar-logo:hover {
+	background-position: 0px -50px; 
+}
+a.navbar-logo-blue:hover {
 	background-position: 0px -50px; 
 }
 
@@ -194,6 +221,53 @@ a.navbar-logo:hover {
 	color: #ffffff !important;
 }
 .collapsing .plain-link a, .in .plain-link a {
+	text-align: center;
+}
+.plain-link-blue {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	margin: 0 auto;
+	padding: 5px 10px 5px 10px;
+}
+@media (min-width: 768px) {
+	.plain-link-blue {
+		padding: 0px 10px 0px 10px;
+	}
+}
+@media (max-width: 768px) {
+	.plain-link-blue {
+		border-bottom: 1px solid #383838;
+	}
+}
+.plain-link-blue a {
+	color: #9fb1b5; !important;
+	font-size: 120%;
+	transition: all 0.33s;
+}
+@media (min-width: 768px) {
+	.plain-link-blue a {
+		font-size: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.plain-link-blue a {
+		font-size: 100%;
+	}
+}
+.plain-link-blue:hover {
+	text-shadow: 0 0 15px #99774c, 0px -5px 20px #a17e51, 0 5px 20px #96744a;
+}
+.plain-link-blue:hover a {
+	color: #ffffff !important;
+}
+.plain-link-blue.active {
+	text-shadow: 0 0 15px #99774c, 0px -5px 20px #a17e51, 0 5px 20px #96744a;
+}
+.plain-link-blue.active a {
+	background-color: transparent !important;
+	color: #ffffff !important;
+}
+.collapsing .plain-link-blue a, .in .plain-link-blue a {
 	text-align: center;
 }
 
@@ -290,6 +364,25 @@ a.navbar-logo:hover {
     background-size: 100% 100%;
 }
 
+.projects-text-color {
+	color: #9fb1b5 !important;
+}
+
+.section-description-projects {
+	margin: 1rem auto 0 auto;
+	width: 69%;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #9fb1b5;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.6rem; 
+}
+@media (max-width: 768px) {
+	.section-description-projects {
+		width: 85%; 
+	} 
+}
 .section-description {
 	margin: 1rem auto 0 auto;
 	width: 69%;
@@ -394,6 +487,42 @@ a.navbar-logo:hover {
 }
 .Divider-rule {
 	background: url(../img/divider-sprite-duel.png) repeat-x 50% 100%;
+	border: 0;
+	height: 55px;
+	left: 50%;
+	margin: 0 0 0 -82px;
+	position: absolute;
+	top: 5px;
+	width: 164px;
+}
+.Divider-blue {
+	height: 55px;
+	margin: -18px -15px;
+	position: relative;
+	z-index: 1;
+}
+.Divider-blue:before {
+	left: 0;
+	margin-right: 82px;
+	right: 50%;
+	background: url(../img/divider-sprite-dark-blue.png) repeat-x 50% 0;
+	content: "";
+	height: 55px;
+	position: absolute;
+	top: 0;
+}
+.Divider-blue:after {
+	left: 50%;
+	margin-left: 82px;
+	right: 0;
+	background: url(../img/divider-sprite-dark-blue.png) repeat-x 50% 0;
+	content: "";
+	height: 55px;
+	position: absolute;
+	top: 0;
+}
+.Divider-rule-blue {
+	background: url(../img/divider-sprite-dark-blue.png) repeat-x 50% 100%;
 	border: 0;
 	height: 55px;
 	left: 50%;
@@ -526,9 +655,13 @@ a.navbar-logo:hover {
     box-shadow: 0 0 10px #000000;
 }
 
-
+/* DEFINES THE SMALL DIVIDERS */
 .separator {
 	background: url(../img/blog-separator.png) 50% 100% no-repeat;
+	position: relative; 
+}
+.separator-blue {
+	background: url(../img/blog-separator-blue.png) 50% 100% no-repeat;
 	position: relative; 
 }
 
@@ -726,6 +859,23 @@ a.navbar-logo:hover {
 	margin-top: 2px;
 	font-weight: 450;
 	color: #c4ae78;
+	text-shadow: 0px 0px 4px #000000; 
+	text-decoration: none;
+	font-style: italic;
+}
+
+.project-header {
+	font-size: 140%;
+	margin-bottom: 0px;
+	font-weight: 500;
+	color: #38b6d6;
+	text-shadow: 0px 0px 4px #000000; 
+}
+.project-header-sub {
+	font-size: 115%;
+	margin-top: 2px;
+	font-weight: 450;
+	color: #38b6d6;
 	text-shadow: 0px 0px 4px #000000; 
 	text-decoration: none;
 	font-style: italic;
