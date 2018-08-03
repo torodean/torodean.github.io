@@ -602,6 +602,76 @@ a.navbar-logo-blue:hover {
 	color: #734a32;
 	font-size: 140%;
 }
+.footer-blue {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #9fb1b5; !important;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+}
+.footer-blue a {
+	transition: all 0.33s;
+	color: #9fb1b5; !important;
+	text-decoration: none;
+}
+@media (min-width: 768px) {
+	.footer-blue a {
+		font-size: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.footer-blue a {
+		font-size: 100%;
+	}
+}
+.footer-blue a:hover,
+.footer-blue a:active {
+	text-shadow: 0 0 15px #99774c, 0px -5px 20px #a17e51, 0 5px 20px #96744a;
+	color: #ffffff !important;
+}
+.footer-blue .footer-nav {
+	text-align: center;
+	font-size: 80%;
+}
+@media (min-width: 768px) {
+	.footer-blue .footer-nav {
+		text-align: left;
+	}
+}
+.footer-blue .footer-nav ul {
+	list-style: none;
+	padding: 0;
+}
+.footer-blue .footer-nav ul li {
+	display: inline-block;
+	padding-right: 1rem;
+}
+.footer-blue .social-nav,
+.footer-blue .social-nav-header {
+	font-size: 120%;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+@media (min-width: 768px) {
+	.footer-blue .social-nav,
+	.footer-blue .social-nav-header {
+		text-align: right;
+		margin-top: 0;
+	}
+}
+.footer-blue .social-nav a,
+.footer-blue .social-nav-header a {
+	padding: 0.5rem;
+	border: none !important;
+}
+.footer-blue .copyright {
+	font-family: "Cinzel Decorative", "Palatino Light", Times, Times New Roman, Georgia, serif;
+	text-rendering: optimizeLegibility;
+	letter-spacing: 0.2rem;
+	text-align: center;
+	margin-top: 1.75rem;
+	color: #293787;
+	font-size: 140%;
+}
 
 /* Styles for social media icons */
 .fa-facebook {
