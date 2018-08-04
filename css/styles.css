@@ -1035,6 +1035,107 @@ a.navbar-logo-blue:hover {
 	font-style: italic;
 }
 
+/* Graphic Deisng section */
+.graphicdesign {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/graphic-BG.jpg);
+	background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: center center;
+    box-shadow: inset 0 -10px 50px #000000;
+    color: #ffffff;
+}
+@media (max-width: 768px) {
+    .graphicdesign section {
+        text-align: center;
+    }
+}
+@media (min-width: 1200px) {
+    .graphicdesign {
+        background-attachment: fixed;
+    }
+}
+.graphicdesign cite {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+.graphicdesign cite img {
+    margin: 15px 15px 0 0;
+    border: 1px solid #752b1a;
+    height: auto;
+    width: 50%;
+    display: inline-block;
+    box-shadow: 0 0 10px #000000;
+}
+.graphicdesign-section-left {
+	margin: 1rem 0 0 auto;
+	width: 80%;
+}
+@media (max-width: 960px) {
+	.graphicdesign-section-left {
+		margin: 1rem auto 0 auto;
+	}
+}
+.graphicdesign-image-left {
+	margin: 1rem 0 0 auto;
+}
+@media (max-width: 960px) {
+	.graphicdesign-image-left {
+		margin: 1rem auto 0 auto;
+	}
+}
+.graphicdesign-section-right {
+	margin: 1rem auto 0 0;
+	width: 80%;
+}
+@media (max-width: 960px) {
+	.graphicdesign-section-right {
+		margin: 1rem auto 0 auto;
+	}
+}
+.graphicdesign-image-right {
+	margin: 1rem auto 0 0;
+}
+@media (max-width: 960px) {
+	.graphicdesign-image-right {
+		margin: 1rem auto 0 auto;
+	}
+}
+.graphicdesign-img {
+	width: 100%;
+	opacity: 0.5;
+	transition: all 0.5s;
+}
+.graphicdesign-img:hover{
+	opacity: 1;
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) {
+	.graphicdesign-img {
+		opacity: 1; 
+	}
+}
+@media (max-width: 768px) {
+	.graphicdesign-img {
+		opacity: 1; 
+	} 
+}
+.graphicdesign-header {
+	font-size: 140%;
+	margin-bottom: 0px;
+	font-weight: 500;
+	color: #c4ae78;
+	text-shadow: 0px 0px 4px #000000; 
+}
+.graphicdesign-header-sub {
+	font-size: 115%;
+	margin-top: 2px;
+	font-weight: 450;
+	color: #c4ae78;
+	text-shadow: 0px 0px 4px #000000; 
+	text-decoration: none;
+	font-style: italic;
+}
+
 .project-header {
 	font-size: 140%;
 	margin-bottom: 0px;
