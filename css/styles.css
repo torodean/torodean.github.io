@@ -352,6 +352,29 @@ a.navbar-logo-blue:hover {
 		background-position: 25%;
 	}
 }
+.header-blog {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../img/blog-BG.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	box-shadow: inset 0 -10px 70px rgba(0, 0, 0, 0.75);
+	height: 75vh;
+	background-position: 75%;
+}
+@media (min-width: 1200px) {
+	.header-blog {
+		background-attachment: fixed;
+	}
+}
+@media (max-width: 768px) {
+	.header-blog {
+		background-position: 25%;
+	}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) {
+	.header-blog {
+		background-position: 25%;
+	}
+}
 
 .black-texture {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../img/black-wallpaper-hd-1.png);
