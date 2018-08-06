@@ -12,9 +12,9 @@
 /* Text formatting */
 h2 {
 	font-size: 180%;
-	text-decoration: underline;
 	color: #c4ae78;
 	text-shadow: 0px 0px 6px #000000;
+	text-transform: uppercase;
 }
 @media (max-width: 480px) {
 	h2 {
@@ -109,6 +109,14 @@ html, body {
 }
 section {
 	padding: 3% 1%;
+}
+
+.pattern {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(../img/dark_wall.png);
+}
+
+.pattern-dark {
+	background-image: url(../img/dark_leather.png);
 }
 
 /* BG color of the navbar */
@@ -740,6 +748,33 @@ a.navbar-logo-blue:hover {
     text-align: center;
 }
 .resumeCV cite img {
+    margin: 15px 15px 0 0;
+    border: 1px solid #752b1a;
+    height: auto;
+    width: 50%;
+    display: inline-block;
+    box-shadow: 0 0 10px #000000;
+}
+
+/* AHPreview section */
+.ahpreview {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/ahpreview.png);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0 -10px 50px #000000;
+    color: #ffffff;
+}
+@media (min-width: 1200px) {
+    .ahpreview {
+        background-attachment: fixed;
+    }
+}
+.ahpreview cite {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+.ahpreviewcite img {
     margin: 15px 15px 0 0;
     border: 1px solid #752b1a;
     height: auto;
