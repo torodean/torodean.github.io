@@ -1,11 +1,11 @@
 /*
 *============================================================================
-* Name        : styles.cpp
-* Author      : Antonius Torode
-* Date        : 2018
-* Copyright   : This file can be used under the conditions of Antonius' 
+* Name       : styles.cpp
+* Author     : Antonius Torode
+* Date       : 2018
+* Copyright  : This file can be used under the conditions of Antonius' 
 *				 General Purpose License (AGPL).
-* Description : Main css fyle for Antonius' Homepage.
+* Description: Main css fyle for Antonius' Homepage.
 *============================================================================
 */
 
@@ -282,8 +282,8 @@ a.navbar-logo-blue:hover {
 /* Dropdown menu settings */
 .dropdown {
 	font-family: Helvetica, Arial, sans-serif;
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 	padding: 15px 10px 15px 10px;
 }
 @media (max-width: 480px){
@@ -292,14 +292,14 @@ a.navbar-logo-blue:hover {
 	}
 }
 .dropdown-content {
-    display: none;
-    position: absolute;
+	display: none;
+	position: absolute;
 	top: 48px;
-    background-color: rgba(38, 37, 37,.85);
-    min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 5px 5px;
-    z-index: 1;
+	background-color: rgba(38, 37, 37,.85);
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 5px 5px;
+	z-index: 1;
 }
 @media (max-width: 480px){
 	.dropdown-content {
@@ -310,14 +310,14 @@ a.navbar-logo-blue:hover {
 	}
 }
 .dropdown:hover .dropdown-content {
-    display: block;
+	display: block;
 }
 
 /* Code for formatting the headers */
 .header-home {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../img/header-bg.jpg);
 	background-repeat: no-repeat;
-    background-size: 100% 100%;
+	background-size: 100% 100%;
 	box-shadow: inset 0 -10px 70px rgba(0, 0, 0, 0.75);
 	height: 75vh;
 	background-position: 75%;
@@ -340,7 +340,7 @@ a.navbar-logo-blue:hover {
 .header-projects {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../img/header-bg-pro.jpg);
 	background-repeat: no-repeat;
-    background-size: 100% 100%;
+	background-size: 100% 100%;
 	box-shadow: inset 0 -10px 70px rgba(0, 0, 0, 0.75);
 	height: 75vh;
 	background-position: 75%;
@@ -363,7 +363,7 @@ a.navbar-logo-blue:hover {
 .header-blog {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../img/blog-BG.jpg);
 	background-repeat: no-repeat;
-    background-size: 100% 100%;
+	background-size: 100% 100%;
 	box-shadow: inset 0 -10px 70px rgba(0, 0, 0, 0.75);
 	height: 75vh;
 	background-position: 75%;
@@ -387,12 +387,12 @@ a.navbar-logo-blue:hover {
 .black-texture {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../img/black-wallpaper-hd-1.png);
 	background-repeat: no-repeat;
-    background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 .black-texture-short {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../img/black-wallpaper-hd-1-short.png);
 	background-repeat: no-repeat;
-    background-size: 100% 100%;
+	background-size: 100% 100%;
 }
 
 .projects-text-color {
@@ -745,113 +745,113 @@ a.navbar-logo-blue:hover {
 
 /* Resume section */
 .resumeCV {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/backgrounds-hd-desktop-1302t5bxw-1s-1920x1080.jpg);
-    background-size: cover;
-    background-position: center center;
-    box-shadow: inset 0 -10px 50px #000000;
-    color: #ffffff;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/backgrounds-hd-desktop-1302t5bxw-1s-1920x1080.jpg);
+	background-size: cover;
+	background-position: center center;
+	box-shadow: inset 0 -10px 50px #000000;
+	color: #ffffff;
 }
 @media (max-width: 768px) {
-    .resumeCV section {
-        text-align: center;
-    }
+	.resumeCV section {
+		text-align: center;
+	}
 }
 @media (min-width: 1200px) {
-    .resumeCV {
-        background-attachment: fixed;
-    }
+	.resumeCV {
+		background-attachment: fixed;
+	}
 }
 .resumeCV cite {
-    display: block;
-    margin-top: 10px;
-    text-align: center;
+	display: block;
+	margin-top: 10px;
+	text-align: center;
 }
 .resumeCV cite img {
-    margin: 15px 15px 0 0;
-    border: 1px solid #752b1a;
-    height: auto;
-    width: 50%;
-    display: inline-block;
-    box-shadow: 0 0 10px #000000;
+	margin: 15px 15px 0 0;
+	border: 1px solid #752b1a;
+	height: auto;
+	width: 50%;
+	display: inline-block;
+	box-shadow: 0 0 10px #000000;
 }
 
 /* ACPreview section */
 .acpreview {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/ACpreview2.png);
-    background-size: cover;
-    background-position: center center;
-    box-shadow: inset 0 -10px 50px #000000;
-    color: #ffffff;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/ACpreview2.png);
+	background-size: cover;
+	background-position: center center;
+	box-shadow: inset 0 -10px 50px #000000;
+	color: #ffffff;
 }
 @media (min-width: 1200px) {
-    .acpreview {
-        background-attachment: fixed;
-    }
+	.acpreview {
+		background-attachment: fixed;
+	}
 }
 .acpreview cite {
-    display: block;
-    margin-top: 10px;
-    text-align: center;
+	display: block;
+	margin-top: 10px;
+	text-align: center;
 }
 .acpreviewcite img {
-    margin: 15px 15px 0 0;
-    border: 1px solid #752b1a;
-    height: auto;
-    width: 50%;
-    display: inline-block;
-    box-shadow: 0 0 10px #000000;
+	margin: 15px 15px 0 0;
+	border: 1px solid #752b1a;
+	height: auto;
+	width: 50%;
+	display: inline-block;
+	box-shadow: 0 0 10px #000000;
 }
 /* AHPreview section */
 .ahpreview {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/AHpreview2.png);
-    background-size: cover;
-    background-position: center center;
-    box-shadow: inset 0 -10px 50px #000000;
-    color: #ffffff;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/AHpreview2.png);
+	background-size: cover;
+	background-position: center center;
+	box-shadow: inset 0 -10px 50px #000000;
+	color: #ffffff;
 }
 @media (min-width: 1200px) {
-    .ahpreview {
-        background-attachment: fixed;
-    }
+	.ahpreview {
+		background-attachment: fixed;
+	}
 }
 .ahpreview cite {
-    display: block;
-    margin-top: 10px;
-    text-align: center;
+	display: block;
+	margin-top: 10px;
+	text-align: center;
 }
 .ahpreview cite img {
-    margin: 15px 15px 0 0;
-    border: 1px solid #752b1a;
-    height: auto;
-    width: 50%;
-    display: inline-block;
-    box-shadow: 0 0 10px #000000;
+	margin: 15px 15px 0 0;
+	border: 1px solid #752b1a;
+	height: auto;
+	width: 50%;
+	display: inline-block;
+	box-shadow: 0 0 10px #000000;
 }
 /* MIA features section */
 .mia-features {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/BG-00.jpg);
-    background-size: cover;
-    background-position: center center;
-    box-shadow: inset 0 -10px 50px #000000;
-    color: #ffffff;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/BG-00.jpg);
+	background-size: cover;
+	background-position: center center;
+	box-shadow: inset 0 -10px 50px #000000;
+	color: #ffffff;
 }
 @media (min-width: 1200px) {
-    .mia-features {
-        background-attachment: fixed;
-    }
+	.mia-features {
+		background-attachment: fixed;
+	}
 }
 .mia-features cite {
-    display: block;
-    margin-top: 10px;
-    text-align: center;
+	display: block;
+	margin-top: 10px;
+	text-align: center;
 }
 .mia-features cite img {
-    margin: 15px 15px 0 0;
-    border: 1px solid #752b1a;
-    height: auto;
-    width: 50%;
-    display: inline-block;
-    box-shadow: 0 0 10px #000000;
+	margin: 15px 15px 0 0;
+	border: 1px solid #752b1a;
+	height: auto;
+	width: 50%;
+	display: inline-block;
+	box-shadow: 0 0 10px #000000;
 }
 
 /* DEFINES THE SMALL DIVIDERS */
@@ -866,24 +866,24 @@ a.navbar-logo-blue:hover {
 
 /* General information formatting */
 .information {
-     padding-top: 20px;
+	 padding-top: 20px;
 }
 .information-img {
-    width: 100%;
-    border: 1px solid;
-    opacity: 0.5;
-    transition: all 0.5s;
-    box-shadow: 0px 0px 25px 0px #000000;
+	width: 100%;
+	border: 1px solid;
+	opacity: 0.5;
+	transition: all 0.5s;
+	box-shadow: 0px 0px 25px 0px #000000;
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) {
-    .information-img {
-        opacity: 1;
-    }
+	.information-img {
+		opacity: 1;
+	}
 }
 @media (max-width: 768px) {
 	.information-img {
-        opacity: 1;
-    }
+		opacity: 1;
+	}
 }
 .information-item .item-name-caption {
 	background-color: #000000;
@@ -902,97 +902,97 @@ a.navbar-logo-blue:hover {
 	text-shadow: 0px 0px 4px #383838;
 }
 .information-item:hover .information-p {
-    color: #9d9280;
+	color: #9d9280;
 }
 .information-item-hierarchy .item-name-caption {
-    background-color: #000000;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-    top: 0;
-    border-radius: 0px;
-    left: 0;
-    display: none;
+	background-color: #000000;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+	top: 0;
+	border-radius: 0px;
+	left: 0;
+	display: none;
 }
 .information-item-hierarchy:hover .information-img {
-    opacity: 1;
-    border: 1px solid #9d9280;
-    box-shadow: 0px 0px 25px 0px #37271b;
+	opacity: 1;
+	border: 1px solid #9d9280;
+	box-shadow: 0px 0px 25px 0px #37271b;
 }
 .information-item-hierarchy:hover h3 {
-    text-shadow: 0px 0px 4px #383838;
+	text-shadow: 0px 0px 4px #383838;
 }
 .information-item-hierarchy:hover .information-p {
-    color: #9d9280;
+	color: #9d9280;
 }
 .information-item-perks .item-name-caption {
-    background-color: #000000;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-    top: 0;
-    border-radius: 0px;
-    left: 0;
-    display: none;
+	background-color: #000000;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+	top: 0;
+	border-radius: 0px;
+	left: 0;
+	display: none;
 }
 .information-item-perks:hover .information-img {
-    opacity: 1;
-    border: 1px solid #9d9280;
-    box-shadow: 0px 0px 25px 0px #37271b;
+	opacity: 1;
+	border: 1px solid #9d9280;
+	box-shadow: 0px 0px 25px 0px #37271b;
 }
 .information-item-perks:hover h3 {
-    text-shadow: 0px 0px 4px #383838;
+	text-shadow: 0px 0px 4px #383838;
 }
 .information-item-perks:hover .information-p {
-    color: #9d9280;
+	color: #9d9280;
 }
 .information-p {
-    font-family: Helvetica, Arial, sans-serif;
-    color: #71675b;
-    font-size: 0.85em;
-    text-align: left;
-    transition: all 0.5s;
-    font-weight: 400;
-    line-height: 1.4rem;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #71675b;
+	font-size: 0.85em;
+	text-align: left;
+	transition: all 0.5s;
+	font-weight: 400;
+	line-height: 1.4rem;
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (min-device-height: 1366px) and (max-device-height: 1366px) and (min-width: 1024px) and (max-width: 1024px) {
-    .information-p {
-        font-size: 0.8em;
-    }
+	.information-p {
+		font-size: 0.8em;
+	}
 }
 @media (max-width: 320px) {
-    .information-p {
-        font-size: 0.9rem;
-    }
+	.information-p {
+		font-size: 0.9rem;
+	}
 }
 
 /* Experience section */
 .experience {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/BG-00.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/BG-00.jpg);
 	background-repeat: repeat-y;
-    background-size: 100%;
-    background-position: center center;
-    box-shadow: inset 0 -10px 50px #000000;
-    color: #ffffff;
+	background-size: 100%;
+	background-position: center center;
+	box-shadow: inset 0 -10px 50px #000000;
+	color: #ffffff;
 }
 @media (max-width: 768px) {
-    .experience section {
-        text-align: center;
-    }
+	.experience section {
+		text-align: center;
+	}
 }
 @media (min-width: 1200px) {
-    .experience {
-        background-attachment: fixed;
-    }
+	.experience {
+		background-attachment: fixed;
+	}
 }
 .experience cite {
-    display: block;
-    margin-top: 10px;
-    text-align: center;
+	display: block;
+	margin-top: 10px;
+	text-align: center;
 }
 .experience cite img {
-    margin: 15px 15px 0 0;
-    border: 1px solid #752b1a;
-    height: auto;
-    width: 50%;
-    display: inline-block;
-    box-shadow: 0 0 10px #000000;
+	margin: 15px 15px 0 0;
+	border: 1px solid #752b1a;
+	height: auto;
+	width: 50%;
+	display: inline-block;
+	box-shadow: 0 0 10px #000000;
 }
 .experience-section-left {
 	margin: 1rem 0 0 auto;
@@ -1065,35 +1065,35 @@ a.navbar-logo-blue:hover {
 
 /* programming section */
 .programming {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/HD-3D-Abstract-Wallpapers-633.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/HD-3D-Abstract-Wallpapers-633.jpg);
 	background-repeat: repeat-y;
-    background-size: 100%;
-    background-position: center center;
-    box-shadow: inset 0 -10px 50px #000000;
-    color: #ffffff;
+	background-size: 100%;
+	background-position: center center;
+	box-shadow: inset 0 -10px 50px #000000;
+	color: #ffffff;
 }
 @media (max-width: 768px) {
-    .programming section {
-        text-align: center;
-    }
+	.programming section {
+		text-align: center;
+	}
 }
 @media (min-width: 1200px) {
-    .programming {
-        background-attachment: fixed;
-    }
+	.programming {
+		background-attachment: fixed;
+	}
 }
 .programming cite {
-    display: block;
-    margin-top: 10px;
-    text-align: center;
+	display: block;
+	margin-top: 10px;
+	text-align: center;
 }
 .programming cite img {
-    margin: 15px 15px 0 0;
-    border: 1px solid #752b1a;
-    height: auto;
-    width: 50%;
-    display: inline-block;
-    box-shadow: 0 0 10px #000000;
+	margin: 15px 15px 0 0;
+	border: 1px solid #752b1a;
+	height: auto;
+	width: 50%;
+	display: inline-block;
+	box-shadow: 0 0 10px #000000;
 }
 .programming-section-left {
 	margin: 1rem 0 0 auto;
@@ -1166,35 +1166,35 @@ a.navbar-logo-blue:hover {
 
 /* Graphic Deisng section */
 .graphicdesign {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/graphic-BG.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25)), url(../img/graphic-BG.jpg);
 	background-repeat: repeat-y;
-    background-size: 100%;
-    background-position: center center;
-    box-shadow: inset 0 -10px 50px #000000;
-    color: #ffffff;
+	background-size: 100%;
+	background-position: center center;
+	box-shadow: inset 0 -10px 50px #000000;
+	color: #ffffff;
 }
 @media (max-width: 768px) {
-    .graphicdesign section {
-        text-align: center;
-    }
+	.graphicdesign section {
+		text-align: center;
+	}
 }
 @media (min-width: 1200px) {
-    .graphicdesign {
-        background-attachment: fixed;
-    }
+	.graphicdesign {
+		background-attachment: fixed;
+	}
 }
 .graphicdesign cite {
-    display: block;
-    margin-top: 10px;
-    text-align: center;
+	display: block;
+	margin-top: 10px;
+	text-align: center;
 }
 .graphicdesign cite img {
-    margin: 15px 15px 0 0;
-    border: 1px solid #752b1a;
-    height: auto;
-    width: 50%;
-    display: inline-block;
-    box-shadow: 0 0 10px #000000;
+	margin: 15px 15px 0 0;
+	border: 1px solid #752b1a;
+	height: auto;
+	width: 50%;
+	display: inline-block;
+	box-shadow: 0 0 10px #000000;
 }
 .graphicdesign-section-left {
 	margin: 1rem 0 0 auto;
@@ -1294,7 +1294,7 @@ a.navbar-logo-blue:hover {
 	cursor: pointer; 
 }
 @media (max-width: 768px) {
-    .box {
+	.box {
 		margin-top: 3rem; 
 	} 
 }
