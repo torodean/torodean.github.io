@@ -48,7 +48,7 @@ for filename in filenames:
 		if p1:
 			file.write(fileline)
 		if p3:
-			if '<!-- ============== BEGIN FOOTER - PYTHON ENCODED =============== -->' in fileline:
+			if '<!-- ============== END FOOTER - PYTHON ENCODED =============== -->' in fileline:
 				p3 = False
 				p4 = True
 		if p2:
@@ -60,7 +60,7 @@ for filename in filenames:
 			p3 = True
 		if p4:
 			file.write(fileline)
-		if '<!-- ============== END FOOTER - PYTHON ENCODED =============== -->' in fileline:
+		if '<!-- ============== BEGIN FOOTER - PYTHON ENCODED =============== -->' in fileline:
 			p1 = False
 			p2 = True	
 	
