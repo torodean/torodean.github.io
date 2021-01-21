@@ -7,7 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89c4fe8f-3437-4a65-920e-102f5b01bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACookbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/ACookbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AHandbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/AHandbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D3F.html" beforeDir="false" afterPath="$PROJECT_DIR$/D3F.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIA.html" beforeDir="false" afterPath="$PROJECT_DIR$/MIA.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +39,13 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609957924775</updated>
-      <workItem from="1609957926278" duration="1671000" />
+      <workItem from="1609957926278" duration="1861000" />
     </task>
     <servers />
   </component>
