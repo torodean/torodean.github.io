@@ -6,10 +6,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c4fe8f-3437-4a65-920e-102f5b01bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/workout/index.html" afterDir="false" />
+    <list default="true" id="0c22b21f-7efe-457d-a556-0e6f79406051" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +18,10 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1mhu0vnawyRcpJuB1ykJs6ppLya" />
+  <component name="ProjectId" id="1nwjJSXGBblgqHl0xvs5zFhgCKi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,25 +31,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MMORPDND.github.io" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="89c4fe8f-3437-4a65-920e-102f5b01bd81" name="Default Changelist" comment="" />
-      <created>1609957924775</created>
+      <changelist id="0c22b21f-7efe-457d-a556-0e6f79406051" name="Default Changelist" comment="" />
+      <created>1612307975834</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609957924775</updated>
-      <workItem from="1609957926278" duration="1861000" />
-      <workItem from="1613113524558" duration="777000" />
+      <updated>1612307975834</updated>
+      <workItem from="1612307977524" duration="1207000" />
+      <workItem from="1612324125685" duration="16000" />
     </task>
     <servers />
   </component>
