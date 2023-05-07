@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89c4fe8f-3437-4a65-920e-102f5b01bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commitAll.sh" beforeDir="false" afterPath="$PROJECT_DIR$/commitAll.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/main-nav-bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/python/main-nav-bar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/update-nav-bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/update-nav-bar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sermonettes.html" beforeDir="false" afterPath="$PROJECT_DIR$/sermonettes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
