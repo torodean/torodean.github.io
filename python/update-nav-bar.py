@@ -7,7 +7,7 @@
 
 
 
-filenames = ['index', 'projects', 'MIA', 'blog', 'AHandbook', 'ACookbook', 'blog/blog-template', 'D3F']
+filenames = ['index', 'projects', 'MIA', 'blog', 'AHandbook', 'ACookbook', 'blog/blog-template', 'D3F', 'sermonettes']
 templatefilename = 'main-nav-bar'
 print('...')
 print('...Template File as {0}.html'.format(templatefilename))
