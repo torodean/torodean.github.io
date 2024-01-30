@@ -883,12 +883,14 @@ a.navbar-logo-blue:hover {
 /* DEFINES THE SMALL DIVIDERS */
 .separator {
 	background: url(../img/blog-separator.png) 50% 100% no-repeat;
-	position: relative;     
-	padding: 10px;
+	position: relative;
 }
 .separator-blue {
 	background: url(../img/blog-separator-blue.png) 50% 100% no-repeat;
-	position: relative;     
+	position: relative;
+}
+
+.separator-padding {  
 	padding: 10px;
 }
 
