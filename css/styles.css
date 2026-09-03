@@ -414,6 +414,7 @@ a.navbar-logo-blue:hover {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../img/black-wallpaper-hd-1.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	background-attachment: fixed;
 }
 .black-texture-short {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url(../img/black-wallpaper-hd-1-short.png);
@@ -889,7 +890,6 @@ a.navbar-logo-blue:hover {
 	background: url(../img/blog-separator-blue.png) 50% 100% no-repeat;
 	position: relative;
 }
-
 .separator-padding {  
 	padding: 10px;
 }
@@ -1494,4 +1494,117 @@ a.navbar-logo-blue:hover {
 	.header-DnD-TS {
 		background-position: 25%;
 	}
+}
+
+
+
+
+
+
+
+/* Sermonette collapsible list */
+.sermonettes-list-section .sermonette-item {
+	width: 100%;
+	margin: 0;
+}
+
+.sermonettes-list-section .sermonette-item summary {
+	position: relative;
+	display: block;
+	width: 69%;
+	margin: 0 auto;
+	padding: 0 2.5rem 0 0;
+	box-sizing: border-box;
+
+	/* Make the entire title behave like a link. */
+	cursor: pointer;
+	user-select: none;
+
+	/* Match the existing project-header. */
+	font-size: 140%;
+	margin-bottom: 0px;
+	font-weight: 500;
+	color: #38b6d6;
+	text-shadow: 0px 0px 4px #000000;
+
+	/* Match the link hover transition. */
+	transition: color 0.33s, text-shadow 0.33s;
+	list-style: none;
+}
+
+.sermonettes-list-section .sermonette-item summary::-webkit-details-marker {
+	display: none;
+}
+
+.sermonettes-list-section .sermonette-item summary::marker {
+	display: none;
+}
+
+/* Closed state: minus sign. */
+.sermonettes-list-section .sermonette-item summary::after {
+	content: "−";
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 140%;
+	font-weight: 500;
+	line-height: 1;
+
+	color: #38b6d6;
+	text-shadow: 0px 0px 4px #000000;
+
+	/* Do not let the indicator become a text-selection cursor. */
+	cursor: pointer;
+}
+
+/* Open state: down arrow. */
+.sermonettes-list-section .sermonette-item[open] summary::after {
+	content: "▼";
+	font-size: 85%;
+}
+
+/* The link hover behavior. */
+.sermonettes-list-section .sermonette-item summary:hover,
+.sermonettes-list-section .sermonette-item summary:hover::after {
+	color: #ffffff;
+	text-shadow: 0 0 15px #99774c, 0px -5px 20px #a17e51, 0 5px 20px #96744a;
+	cursor: pointer;
+}
+
+/* Keep keyboard focus visible without changing the normal appearance. */
+.sermonettes-list-section .sermonette-item summary:focus-visible {
+	outline: 1px dotted #9d9280;
+	outline-offset: 3px;
+}
+
+.sermonettes-list-section .sermonette-content {
+	width: 69%;
+	margin: 0 auto;
+	padding: 0 0 1.25rem 0;
+}
+
+.sermonettes-list-section .sermonette-content .section-description-projects {
+	width: 100%;
+}
+
+.sermonettes-list-section .sermonette-content .text-align-center {
+	margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+	.sermonettes-list-section .sermonette-item summary,
+	.sermonettes-list-section .sermonette-content {
+		width: 85%;
+	}
+
+	.sermonettes-list-section .sermonette-item summary {
+		font-size: 130%;
+	}
+}
+
+.sermonettes-list-section .sermonette-content h2.h2-projects {
+	/* Define sermonette header specifics here. */
 }
